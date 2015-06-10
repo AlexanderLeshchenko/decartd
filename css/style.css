@@ -1,6 +1,6 @@
 .backwrap{
 	min-width: 420px;
-	background: transparent;
+/*	background: transparent;*/
 	background-color: rgb(103,39,46);
 	background-image: url('../img/bg1.png');
 	background-repeat: repeat;
@@ -39,6 +39,7 @@ button,
 	display: inline-block;
 	text-transform: uppercase;
 	text-align: center;
+	text-decoration: none;
 }
 input[type="button"]:hover,
 button:hover,
@@ -55,7 +56,6 @@ button:hover,
 }
 .da-navigation li{
 	display: inline-block;
-
 }
 .da-navigation a{
 	color: #ffffff;
@@ -74,6 +74,9 @@ button:hover,
 /*.da-navigation a:last-child{
 	border-right: none;
 }*/
+.da-navigation .da-none{
+	border-right: none;
+}
 .da-navigation li a:hover{
 	color:#121212;
 }
@@ -118,10 +121,9 @@ p{
 .da-slider img{
 	width: 100%;
 }
-
 /*WELCOME*/
 .da-welcome{
-	margin-top: -3px;
+
 	background: #f7f6ee;
 }
 
@@ -259,8 +261,8 @@ p{
 	background: #f7f6ee;
 }
 iframe{
-	width: 960px;
-	height: 600px;
+	width: 900px;
+	height: 400px;
 }
 
 label{
@@ -286,4 +288,9 @@ input[type="tel"],
 textarea
 {
 	width: 50%;
+}
+.da-contacts .da-form{
+	margin-left: auto;
+	margin-right: auto;
+
 }
